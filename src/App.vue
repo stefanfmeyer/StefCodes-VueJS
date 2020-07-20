@@ -2,7 +2,9 @@
   <div id="app">
     <Menu />
     <div class="router-view">
-      <router-view></router-view>
+      <transition name="page" mode="out-in">
+        <router-view></router-view>
+      </transition>
     </div>
   </div>
 </template>
@@ -26,5 +28,14 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 1s, transform 1s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-20%);
 }
 </style>
