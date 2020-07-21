@@ -3,7 +3,7 @@
     <div class="home">
       <b-container-fluid align-v="center">
         <b-row>
-          <b-col class="home-title" lg="12" md="12" sm="12">
+          <b-col class="home-title mb-custom" lg="12" md="12" sm="12">
             <h1>Stefan Meyer is a creative developer that delivers bespoke solutions for your brand or agency.</h1>
             <div class="blue-banner-small"></div>
           </b-col>
@@ -17,7 +17,7 @@
       <b-container-fluid>
         <b-row class="custom">
           <b-col class="home-info-1 mb-standard" lg="6" offset-md="6" md="6" sm="12">
-            <p>I partner with creative agencies, brands and individuals to create stunning, bespoke web experiences.My creations are fully responsive, engaging and user focused works of art.</p>
+            <p>I partner with creative agencies, brands and individuals to create stunning, bespoke web experiences. My creations are fully responsive, engaging, user-focused works of art.</p>
             <p>My development journey started in 2012 creating sites for small local businesses. Fast forward to 2020 and I have worked on over 60+ bespoke websites and CRM systems.</p>
           </b-col>
         </b-row>
@@ -25,11 +25,28 @@
     </div>
     <div class="third">
       <b-container-fluid>
-        <b-row>
-          <b-col class="home-info-1 mb-standard" lg="6" offset-md="6" md="6" sm="12">
-            <p>I partner with creative agencies, brands and individuals to create stunning, bespoke web experiences.</p>
-            <p>My creations are fully responsive, engaging and user focused works of art.</p>
-            <p></p>
+        <b-row class="custom">
+          <b-col class="home-info-2 mb-custom" lg="9" md="9" sm="12">
+            <p>From design to development, everything is kept under one roof. This allows for greater continuity between your ideas and the final product.</p>
+          </b-col>
+        </b-row>
+      </b-container-fluid>
+    </div>
+    <div class="fourth">
+      <b-container-fluid>
+        <b-row class="custom">
+          <b-col class="home-info-3" lg="6" md="6" sm="12">
+            <img src="@/assets/grow.jpg" alt />
+          </b-col>
+          <b-col class="home-info-3-accordion mb-standard" lg="6" md="6" sm="12">
+            <Accordion
+              ah1="Front-End Development"
+              ac1="Development is a key part of the creative process. Extensive research and planning helps to connect the user to your bespoke web experience."
+              ah2="Back-End Development"
+              ac2="A secure foundation is crucial, ensuring your website is built on the strongest foundations will allow you to scale-up and expand according to demand."
+              ah3="UX/UI Design"
+              ac3="Creating an experience that emotionally connects people with your brand is crucial to your success online. Extensive research to discover your distinct brand character is vital for me to produce the best possible results."
+            />
           </b-col>
         </b-row>
       </b-container-fluid>
@@ -38,21 +55,33 @@
 </template>
 
 <script>
+import Accordion from "@/components/Accordion.vue";
 export default {
   name: "Home",
   props: {
-    /* SkillBox Props */
-    img: {
+    /* Accordion Props */
+    ah1: {
       type: String
     },
-    skillTextFirst: {
+    ac1: {
       type: String
     },
-    skillTextLast: {
+    ah2: {
+      type: String
+    },
+    ac2: {
+      type: String
+    },
+    ah3: {
+      type: String
+    },
+    ac3: {
       type: String
     }
   },
-  components: {},
+  components: {
+    Accordion
+  },
   methods: {}
 };
 </script>
@@ -81,7 +110,6 @@ h3 {
 }
 .home-title {
   padding: 10% 33% 1% 10%;
-  margin-bottom: 23rem;
 }
 .home-image {
   padding-left: 25vw;
@@ -94,6 +122,9 @@ h3 {
 .mb-standard {
   margin-bottom: 27rem;
 }
+.mb-custom {
+  margin-bottom: 23rem;
+}
 .custom {
   padding-left: 10vw;
   padding-right: 10vw;
@@ -104,5 +135,25 @@ h3 {
   p {
     font-size: 2.8rem;
   }
+}
+.home-info-2 {
+  text-align: left;
+  padding-right: 50px;
+  p {
+    font-size: 4.8rem;
+    font-weight: 700;
+  }
+}
+.home-info-3 {
+  text-align: left;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.home-info-3-accordion {
+  text-align: left;
+  padding-left: 6%;
+  padding-top: 6%;
 }
 </style>
