@@ -16,13 +16,10 @@
               <router-link to="/about">About</router-link>
             </li>
             <li>
+              <router-link to="/about">Work</router-link>
+            </li>
+            <li>
               <router-link to="/contact">Contact</router-link>
-            </li>
-            <li>
-              <a href="https://instagram.com/stefcodes/" target="_blank">Instagram</a>
-            </li>
-            <li>
-              <a href="https://github.com/stefanfmeyer" target="_blank">Github</a>
             </li>
           </ul>
         </b-col>
@@ -33,31 +30,34 @@
 
 <script>
 export default {
-  name: "Menu"
+  name: "Menu",
+  methods: {}
 };
 </script>
 
 <style lang="scss" scoped>
 .menu {
-  padding: 10px 15px;
+  padding: 10px;
   position: fixed;
   width: 100%;
   z-index: 100;
-  height: 100vh;
+  height: 150px;
 
   .menu-image {
     text-align: left;
-    padding-left: 15px;
+    padding: 35px 50px;
     img {
-      width: 54px;
+      width: 80px;
       height: auto;
       margin-bottom: 5px;
+      margin-left: 15px;
     }
   }
 
   .menu-items {
     margin-left: auto;
     text-align: right;
+    padding: 50px;
     ul {
       margin-bottom: 0px;
       padding-left: 0px;
@@ -65,12 +65,12 @@ export default {
       margin-top: 16px;
       li {
         display: inline-block;
-        padding: 10px 20px;
+        padding: 10px 25px;
         a {
-          color: #343645;
+          color: #403c58;
           text-decoration: none;
           font-size: 2rem;
-          transition: 1s;
+          transition: 0.5s;
           font-weight: 500;
         }
         :hover {

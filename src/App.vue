@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <VueScrollProgress></VueScrollProgress>
     <Menu />
     <div class="router-view">
       <transition name="page" mode="out-in">
@@ -10,6 +11,7 @@
 </template>
 <script>
 // @ is an alias to /src
+
 import Menu from "@/components/Menu.vue";
 export default {
   name: "App",
@@ -22,6 +24,8 @@ export default {
 html {
   font-family: "Montserrat", sans-serif;
   font-display: swap;
+  max-width: 100% !important;
+  overflow-x: hidden;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -36,6 +40,17 @@ html {
 .page-enter,
 .page-leave-to {
   opacity: 0;
-  transform: translateY(-20%);
+  transform: translateY(10%);
+}
+/* VUE PROGRESS BAR */
+/* play with some lines below */
+#progress-container-el {
+  /* background */
+  background-color: transparent !important;
+  bottom: calc(100% - 4px) !important;
+}
+#progress-el {
+  /* progress bar */
+  background-color: #32bed5 !important;
 }
 </style>
