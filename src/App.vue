@@ -47,7 +47,7 @@ html {
 #progress-container-el {
   /* background */
   background-color: transparent !important;
-  bottom: calc(100% - 200px) !important;
+  bottom: calc(100% - 4px) !important;
 }
 #progress-el {
   /* progress bar */
