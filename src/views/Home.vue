@@ -101,6 +101,7 @@
           </b-col>
         </b-row>
       </b-container-fluid>
+      <a href="#top" class="go-top" v-smooth-scroll>GO TOP</a>
     </div>
   </div>
 </template>
@@ -268,5 +269,16 @@ h3 {
       }
     }
   }
+}
+.go-top {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  color: #000;
+  font-size: 20px;
+  padding: 20px 10px;
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: 1px 1px 1px #000;
 }
 </style>

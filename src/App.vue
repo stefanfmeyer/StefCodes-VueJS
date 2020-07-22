@@ -2,7 +2,7 @@
   <div id="app">
     <VueScrollProgress></VueScrollProgress>
     <Menu />
-    <div class="router-view">
+    <div class="router-view" id="top">
       <transition name="page" mode="out-in">
         <router-view></router-view>
       </transition>
