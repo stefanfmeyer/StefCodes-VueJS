@@ -160,7 +160,7 @@ h3 {
   overflow: hidden;
 }
 .home-title {
-  padding: 10% 33% 1% 10%;
+  padding: 20% 33% 1% 10%;
 }
 .home-image {
   padding-left: 25vw;
