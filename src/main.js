@@ -6,6 +6,7 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./assets/App.scss";
+import "./assets/mobile.scss";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import VueSmoothScroll from "vue2-smooth-scroll";

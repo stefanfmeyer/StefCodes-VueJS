@@ -56,18 +56,6 @@ export default {
       type: String
     }
   }
-  //   data() {
-  //     return {
-  //       text1: `
-  //          We take development very seriously
-  //         `,
-  //       text2: `
-  //          We take development very seriously
-  //         `,
-  //       text3: `
-  //          We take development very seriously
-  //         `
-  //     };
 };
 </script>
 

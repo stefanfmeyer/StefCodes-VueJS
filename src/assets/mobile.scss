@@ -1,0 +1,194 @@
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem !important;
+    line-height: 4rem !important;
+  }
+  h2 {
+    font-size: 3.2rem !important;
+  }
+  p {
+    font-size: 1.8rem !important;
+  }
+  .router-view {
+    padding-top: 12% !important;
+  }
+  .home {
+    text-align: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .home-title {
+    padding: 15% 10% 10% 10% !important;
+  }
+  .home-image {
+    padding: 0 !important;
+    text-align: center !important;
+    margin: 0 !important;
+    img {
+      height: auto !important;
+      width: 100% !important;
+    }
+  }
+  .blue-banner-small {
+    height: 10px;
+    width: 150px;
+    background: #5dbcd2;
+  }
+  .menu {
+    position: relative !important;
+    width: auto !important;
+    height: auto !important;
+    .menu-image {
+      text-align: center !important;
+      padding: 10px !important;
+      padding-bottom: 25px !important;
+      img {
+        height: 90px !important;
+        width: auto !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+      }
+    }
+
+    .menu-items {
+      text-align: center !important;
+      padding: 10px !important;
+      ul {
+        margin-bottom: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-top: 0px !important;
+        li {
+          padding: 0px !important;
+          width: 24% !important;
+          a {
+          }
+          :hover {
+          }
+        }
+      }
+    }
+  }
+  .mb-standard {
+    margin-bottom: 17rem !important;
+  }
+  .mb-custom {
+    margin-bottom: 8rem !important;
+  }
+  .mb-custom-small {
+    margin-bottom: 1rem !important;
+  }
+  .custom {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .home-info-1 {
+    text-align: left;
+    padding: 0px !important;
+    p {
+      font-size: 2.8rem;
+    }
+  }
+  .home-info-2 {
+    text-align: left;
+    padding: 0px !important;
+    p {
+      font-size: 2rem !important;
+      font-weight: 700;
+    }
+  }
+  .home-info-3 {
+    text-align: left;
+    padding: 0px !important;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .home-info-3-accordion {
+    padding: 0px !important;
+  }
+  .accordion-header {
+    font-size: 2.2rem !important;
+    color: #000 !important;
+    text-align: left;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important;
+    padding: 0px !important;
+  }
+  .accordion-card-body {
+    padding: 2px 0px !important;
+  }
+  .accordion-card-text {
+    padding: 2px 0px !important;
+  }
+  .mb-accordion {
+    margin-bottom: 20px;
+  }
+  .home-info-4 {
+    text-align: left;
+    padding: 0px !important;
+    p {
+      font-size: 2rem !important;
+      font-weight: 700;
+      margin-bottom: 14%;
+    }
+  }
+  .footer-info {
+    padding: 0px !important;
+    ul.left-ul {
+      padding-left: 0px;
+      text-align: left;
+      width: 100% !important;
+      float: none !important;
+      margin-bottom: 10% !important;
+      li {
+        display: block;
+        p {
+          color: #000;
+        }
+      }
+    }
+    ul.right-ul {
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+      text-align: left;
+      width: 100% !important;
+      float: none !important;
+      li {
+        display: block;
+        a {
+          font-size: 1.8rem !important;
+          color: #000;
+          text-decoration: none;
+        }
+        :hover {
+          color: #5dbcd2;
+          transition: 0.5s;
+        }
+      }
+    }
+    ul.last-ul {
+      margin-top: 5rem !important;
+      margin-bottom: 5rem !important;
+      padding: 0px !important;
+      text-align: left;
+      li {
+        display: inline-block;
+        padding-right: 0% !important;
+        a {
+          font-size: 1.8rem !important;
+          color: #000;
+          text-decoration: none;
+        }
+        :hover {
+          color: #5dbcd2;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}

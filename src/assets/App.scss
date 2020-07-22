@@ -7,8 +7,8 @@ body {
   letter-spacing: 0.05rem;
   background: #fff;
   font-size: 62.5%;
-  max-width: 100%;
   color: #403c58;
+  width: 100%;
 }
 
 #app {
@@ -18,31 +18,4 @@ body {
   width: 100%;
   right: 0;
   bottom: 0;
-}
-h1 {
-  font-size: 6.6rem;
-  font-weight: 500;
-}
-h2 {
-  font-size: 3.2rem;
-}
-p {
-  font-size: 1.8rem;
-}
-.router-view {
-  padding-top: 150px;
-}
-
-.blue-banner-small {
-  height: 10px;
-  width: 150px;
-  background: #5dbcd2;
-}
-@media screen and (max-width: 768px) {
-  html {
-    font-size: 10px;
-  }
-  .router-view {
-    padding-top: 250px;
-  }
 }

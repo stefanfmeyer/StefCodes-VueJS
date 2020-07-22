@@ -2,12 +2,12 @@
   <div class="menu">
     <b-container-fluid align-v="center">
       <b-row>
-        <b-col class="menu-image" lg="6" md="12">
+        <b-col class="menu-image" lg="6" md="12" sm="6">
           <router-link to="/">
             <img src="@/assets/logo.png" alt="Stefcodes-logo-web-developer" />
           </router-link>
         </b-col>
-        <b-col class="menu-items" lg="6" md="12">
+        <b-col class="menu-items" lg="6" md="12" sm="6">
           <ul>
             <li>
               <router-link to="/">Home</router-link>
@@ -75,17 +75,6 @@ export default {
         }
         :hover {
           color: #5dbcd2;
-        }
-      }
-    }
-  }
-}
-@media screen and (max-width: 768px) {
-  .menu-items {
-    ul {
-      li {
-        padding: 5px 10px;
-        a {
         }
       }
     }
