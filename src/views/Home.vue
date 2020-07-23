@@ -33,7 +33,7 @@
     <div class="third">
       <b-container-fluid>
         <b-row class="custom">
-          <b-col class="home-info-2 mb-custom" lg="9" md="9" sm="12" data-aos="fade-right">
+          <b-col class="home-info-2 mb-custom" lg="9" md="9" sm="12" data-aos="zoom-out-up">
             <p>From design to development, everything is kept under one roof. This allows for greater continuity between your ideas and the final product.</p>
           </b-col>
         </b-row>
@@ -42,7 +42,7 @@
     <div class="fourth">
       <b-container-fluid>
         <b-row class="custom">
-          <b-col class="home-info-3 mb-standard" lg="6" md="6" sm="12" data-aos="fade-right">
+          <b-col class="home-info-3 mb-standard" lg="6" md="6" sm="12" data-aos="zoom-out-up">
             <img src="@/assets/grow.jpg" alt />
           </b-col>
           <b-col
@@ -67,10 +67,10 @@
     <div class="fifth">
       <b-container-fluid>
         <b-row class="custom">
-          <b-col class="home-info-4 mb-small-custom" lg="9" md="9" sm="12" data-aos="fade-right">
+          <b-col class="home-info-4 mb-small-custom" lg="9" md="9" sm="12" data-aos="zoom-out-up">
             <p>Reach out to me anywhere and I'll get back to you.</p>
           </b-col>
-          <b-col class="footer-info mb-small-custom" lg="6" md="9" sm="12" data-aos="fade-right">
+          <b-col class="footer-info mb-small-custom" lg="6" md="9" sm="12"data-aos="zoom-out-up">
             <ul class="left-ul">
               <li>
                 <p>Liverpool</p>
