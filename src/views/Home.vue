@@ -22,7 +22,7 @@
             offset-md="6"
             md="6"
             sm="12"
-            data-aos="fade-left"
+            data-aos="zoom-out-up"
           >
             <p>I partner with creative agencies, brands and individuals to create stunning, bespoke web experiences. My creations are fully responsive, engaging, user-focused works of art.</p>
             <p>My development journey started in 2012 creating sites for small local businesses. Fast forward to 2020 and I have worked on over 60+ bespoke websites and CRM systems.</p>
@@ -70,7 +70,7 @@
           <b-col class="home-info-4 mb-small-custom" lg="9" md="9" sm="12" data-aos="zoom-out-up">
             <p>Reach out to me anywhere and I'll get back to you.</p>
           </b-col>
-          <b-col class="footer-info mb-small-custom" lg="6" md="9" sm="12"data-aos="zoom-out-up">
+          <b-col class="footer-info mb-small-custom" lg="6" md="9" sm="12" data-aos="zoom-out-up">
             <ul class="left-ul">
               <li>
                 <p>Liverpool</p>
