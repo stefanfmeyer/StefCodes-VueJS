@@ -9,10 +9,8 @@ import "./assets/App.scss";
 import "./assets/mobile.scss";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import VueSmoothScroll from "vue2-smooth-scroll";
 import VueScrollProgress from "vue-scroll-progress";
 
-Vue.use(VueSmoothScroll);
 Vue.use(VueScrollProgress);
 
 Vue.config.productionTip = false;
