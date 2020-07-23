@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="home">
+      <!-- <a href="#top" class="go-top" v-smooth-scroll>GO TOP</a> -->
       <b-container-fluid align-v="center">
         <b-row>
           <b-col class="home-title mb-custom" lg="12" md="12" sm="12">
@@ -22,7 +23,7 @@
             offset-md="6"
             md="6"
             sm="12"
-            data-aos="zoom-out-up"
+            data-aos="fade-left"
           >
             <p>I partner with creative agencies, brands and individuals to create stunning, bespoke web experiences. My creations are fully responsive, engaging, user-focused works of art.</p>
             <p>My development journey started in 2012 creating sites for small local businesses. Fast forward to 2020 and I have worked on over 60+ bespoke websites and CRM systems.</p>
@@ -33,7 +34,7 @@
     <div class="third">
       <b-container-fluid>
         <b-row class="custom">
-          <b-col class="home-info-2 mb-custom" lg="9" md="9" sm="12" data-aos="zoom-out-up">
+          <b-col class="home-info-2 mb-custom" lg="9" md="9" sm="12" data-aos="fade-right">
             <p>From design to development, everything is kept under one roof. This allows for greater continuity between your ideas and the final product.</p>
           </b-col>
         </b-row>
@@ -42,7 +43,7 @@
     <div class="fourth">
       <b-container-fluid>
         <b-row class="custom">
-          <b-col class="home-info-3 mb-standard" lg="6" md="6" sm="12" data-aos="zoom-out-up">
+          <b-col class="home-info-3 mb-standard" lg="6" md="6" sm="12" data-aos="fade-right">
             <img src="@/assets/grow.jpg" alt />
           </b-col>
           <b-col
@@ -67,10 +68,10 @@
     <div class="fifth">
       <b-container-fluid>
         <b-row class="custom">
-          <b-col class="home-info-4 mb-small-custom" lg="9" md="9" sm="12" data-aos="zoom-out-up">
+          <b-col class="home-info-4 mb-small-custom" lg="9" md="9" sm="12" data-aos="fade-right">
             <p>Reach out to me anywhere and I'll get back to you.</p>
           </b-col>
-          <b-col class="footer-info mb-small-custom" lg="6" md="9" sm="12" data-aos="zoom-out-up">
+          <b-col class="footer-info mb-small-custom" lg="6" md="9" sm="12">
             <ul class="left-ul">
               <li>
                 <p>Liverpool</p>
@@ -101,7 +102,6 @@
           </b-col>
         </b-row>
       </b-container-fluid>
-      <a href="#top" class="go-top" v-smooth-scroll>GO TOP</a>
     </div>
   </div>
 </template>
@@ -139,19 +139,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h1 {
-  font-size: 6rem;
-  line-height: 7.8rem;
-  font-family: "Raleway", sans-serif;
-  margin-bottom: 20px;
-}
-h2 {
-  font-size: 3.2rem;
-  font-weight: 400;
-}
-h3 {
-  font-size: 2.3rem;
-}
 .home {
   text-align: left;
   top: 0;
@@ -252,7 +239,7 @@ h3 {
   }
   ul.last-ul {
     margin-top: 14rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
     padding-left: 0px;
     text-align: left;
     li {

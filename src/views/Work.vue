@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "About",
+  name: "Work",
   components: {},
   methods: {}
 };
@@ -27,8 +27,8 @@ export default {
 <style lang="scss" scoped>
 .about {
   text-align: left;
-  background-color: #fff;
-  color: #252733;
+  background-color: #252733;
+  color: #fff;
 }
 .about-title {
   padding: 20% 33% 1% 10%;

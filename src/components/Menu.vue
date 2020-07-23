@@ -3,9 +3,9 @@
     <b-container-fluid align-v="center">
       <b-row>
         <b-col class="menu-image" lg="6" md="12" sm="6">
-          <router-link to="/">
+          <a href="/">
             <img src="@/assets/logo.png" alt="Stefcodes-logo-web-developer" />
-          </router-link>
+          </a>
         </b-col>
         <b-col class="menu-items" lg="6" md="12" sm="6">
           <ul>
@@ -67,7 +67,7 @@ export default {
         display: inline-block;
         padding: 10px 25px;
         a {
-          color: #403c58;
+          color: #5dbcd2;
           text-decoration: none;
           font-size: 2rem;
           transition: 0.5s;
@@ -79,5 +79,9 @@ export default {
       }
     }
   }
+}
+.router-link-exact-active {
+  text-decoration: line-through !important;
+  text-decoration-color: #403c58 !important;
 }
 </style>
