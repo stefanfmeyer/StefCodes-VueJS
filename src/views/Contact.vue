@@ -1,5 +1,6 @@
 <template>
   <div>
+    <VueScrollProgress></VueScrollProgress>
     <h1>Contact</h1>
   </div>
 </template>

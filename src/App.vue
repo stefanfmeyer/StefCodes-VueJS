@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <VueScrollProgress></VueScrollProgress>
     <Menu />
     <div class="router-view" id="top">
       <transition name="page" mode="out-in">
@@ -40,16 +39,5 @@ html {
 .page-leave-to {
   opacity: 0;
   transform: translateX(-100%);
-}
-/* VUE PROGRESS BAR */
-/* play with some lines below */
-#progress-container-el {
-  /* background */
-  background-color: transparent !important;
-  bottom: calc(100% - 10%) !important;
-}
-#progress-el {
-  /* progress bar */
-  background-color: #32bed5 !important;
 }
 </style>

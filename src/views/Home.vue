@@ -1,5 +1,6 @@
 <template>
   <div>
+    <VueScrollProgress></VueScrollProgress>
     <div class="home">
       <!-- <a href="#top" class="go-top" v-smooth-scroll>GO TOP</a> -->
       <b-container-fluid align-v="center">

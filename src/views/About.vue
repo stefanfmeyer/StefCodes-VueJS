@@ -1,5 +1,6 @@
 <template>
   <div>
+    <VueScrollProgress></VueScrollProgress>
     <div class="about">
       <b-container-fluid align-v="center">
         <b-row>

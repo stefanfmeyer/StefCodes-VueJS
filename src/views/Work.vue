@@ -1,15 +1,14 @@
 <template>
   <div>
-    <div class="about">
+    <VueScrollProgress></VueScrollProgress>
+    <div class="work">
       <b-container-fluid align-v="center">
         <b-row>
-          <b-col class="about-title mb-custom" lg="12" md="12" sm="12">
-            <h1>Stefan Meyer is a creative developer that delivers bespoke solutions for your brand or agency.</h1>
+          <b-col class="work-title mb-custom" lg="12" md="12" sm="12">
+            <WorkItem />
             <div class="blue-banner-small"></div>
           </b-col>
-          <b-col class="about-image mb-standard" lg="12" md="12" sm="12">
-            <img src="@/assets/phpcode.jpg" alt />
-          </b-col>
+          <b-col class="work-image mb-standard" lg="12" md="12" sm="12"></b-col>
         </b-row>
       </b-container-fluid>
     </div>
@@ -17,23 +16,26 @@
 </template>
 
 <script>
+import WorkItem from "@/components/WorkItem.vue";
 export default {
   name: "Work",
-  components: {},
+  components: {
+    WorkItem
+  },
   methods: {}
 };
 </script>
 
 <style lang="scss" scoped>
-.about {
+.work {
   text-align: left;
   background-color: #252733;
   color: #fff;
 }
-.about-title {
+.work-title {
   padding: 20% 33% 1% 10%;
 }
-.about-image {
+.work-image {
   padding-left: 25vw;
   img {
     height: 800px;
