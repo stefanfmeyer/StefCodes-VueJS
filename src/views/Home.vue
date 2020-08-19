@@ -69,38 +69,7 @@
     <div class="fifth">
       <b-container-fluid>
         <b-row class="custom">
-          <b-col class="home-info-4 mb-small-custom" lg="9" md="9" sm="12" data-aos="fade-right">
-            <p>Reach out to me anywhere and I'll get back to you.</p>
-          </b-col>
-          <b-col class="footer-info mb-small-custom" lg="6" md="9" sm="12">
-            <ul class="left-ul">
-              <li>
-                <p>Liverpool</p>
-              </li>
-              <li>
-                <p>United Kingdom</p>
-              </li>
-            </ul>
-            <ul class="right-ul">
-              <li>
-                <a href="mailto:info@stefcodes.com">info@stefcodes.com</a>
-              </li>
-              <li>
-                <a href="tel:07563197460">+44 7563 1974 60</a>
-              </li>
-            </ul>
-            <ul class="last-ul">
-              <li>
-                <a href="https://instagram.com/stefcodes">Instagram</a>
-              </li>
-              <li>
-                <a href="https://github.com/stefanfmeyer">GitHub</a>
-              </li>
-              <li>
-                <a href="https://github.com/stefanfmeyer">LinkedIn</a>
-              </li>
-            </ul>
-          </b-col>
+          <Contact />
         </b-row>
       </b-container-fluid>
     </div>
@@ -109,6 +78,7 @@
 
 <script>
 import Accordion from "@/components/Accordion.vue";
+import Contact from "@/components/Contact.vue";
 export default {
   name: "Home",
   props: {
@@ -133,140 +103,12 @@ export default {
     }
   },
   components: {
-    Accordion
+    Accordion,
+    Contact
   },
   methods: {}
 };
 </script>
 
 <style lang="scss" scoped>
-.home {
-  text-align: left;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-}
-.home-title {
-  padding: 20% 33% 1% 10%;
-}
-.home-image {
-  padding-left: 25vw;
-  img {
-    height: 800px;
-    width: 100%;
-  }
-}
-.mb-standard {
-  margin-bottom: 27rem;
-}
-.mb-custom {
-  margin-bottom: 23rem;
-}
-.mb-custom-small {
-  margin-bottom: 10rem;
-}
-.custom {
-  padding-left: 10vw;
-  padding-right: 10vw;
-}
-.home-info-1 {
-  text-align: left;
-  p {
-    font-size: 2.8rem;
-  }
-}
-.home-info-2 {
-  text-align: left;
-  padding-right: 50px;
-  p {
-    font-size: 4.8rem;
-    font-weight: 700;
-  }
-}
-.home-info-3 {
-  text-align: left;
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-.home-info-3-accordion {
-  text-align: left;
-  padding-left: 6%;
-  padding-top: 3%;
-}
-.home-info-4 {
-  text-align: left;
-  padding-right: 24%;
-  p {
-    font-size: 4.8rem;
-    font-weight: 700;
-    margin-bottom: 14%;
-  }
-}
-.footer-info {
-  ul.left-ul {
-    padding-left: 0px;
-    text-align: left;
-    width: 50%;
-    float: left;
-    li {
-      display: block;
-      p {
-        font-size: 2.2rem;
-        color: #000;
-      }
-    }
-  }
-  ul.right-ul {
-    padding-right: 30px;
-    text-align: left;
-    width: 50%;
-    float: right;
-    li {
-      display: block;
-      a {
-        font-size: 2.2rem;
-        color: #000;
-        text-decoration: none;
-      }
-      :hover {
-        color: #5dbcd2;
-        transition: 0.5s;
-      }
-    }
-  }
-  ul.last-ul {
-    margin-top: 14rem;
-    margin-bottom: 10rem;
-    padding-left: 0px;
-    text-align: left;
-    li {
-      display: inline-block;
-      padding-right: 30px;
-      a {
-        font-size: 1.8rem;
-        color: #000;
-        text-decoration: none;
-      }
-      :hover {
-        color: #5dbcd2;
-        transition: 0.5s;
-      }
-    }
-  }
-}
-.go-top {
-  position: fixed;
-  bottom: 1%;
-  right: 1%;
-  color: #000;
-  font-size: 20px;
-  padding: 20px 10px;
-  border-radius: 28px;
-  background: #fff;
-  box-shadow: 1px 1px 1px #000;
-}
 </style>

@@ -62,18 +62,20 @@ export default {
 <style lang="scss" scoped>
 .accordion-header {
   font-size: 2.8rem;
-  color: #000 !important;
+  color: #263238 !important;
   text-align: left;
   border: none !important;
   box-shadow: none !important;
   background-color: #fff !important;
   padding: 0px !important;
+  font-weight: 600;
 }
 .accordion-card-body {
   padding: 2px 0px !important;
 }
 .accordion-card-text {
   padding: 2px 0px !important;
+  font-weight: 400;
 }
 .mb-accordion {
   margin-bottom: 20px;

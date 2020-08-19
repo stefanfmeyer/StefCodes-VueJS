@@ -7,7 +7,7 @@ body {
   letter-spacing: 0.05rem;
   background: #fff;
   font-size: 62.5%;
-  color: #403c58;
+  color: #263238;
   min-height: 100%;
   margin: 0 !important;
   padding: 0 !important;
@@ -48,5 +48,86 @@ h3 {
 }
 #progress-el {
   /* progress bar */
-  background-color: #32bed5 !important;
+  background-color: #009688 !important;
+}
+
+.custom {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.home-title {
+  padding: 20% 33% 1% 10%;
+}
+.home-info-1 {
+  text-align: left;
+  p {
+    font-size: 2.8rem;
+  }
+}
+.home-info-2 {
+  text-align: left;
+  padding-right: 50px;
+  p {
+    font-size: 4.8rem;
+    font-weight: 700;
+  }
+}
+.home-info-3 {
+  text-align: left;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.home-info-3-accordion {
+  text-align: left;
+  padding-left: 6%;
+  padding-top: 3%;
+}
+.home-info-4 {
+  text-align: left;
+  padding-right: 24%;
+  p {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 14%;
+  }
+}
+.home,
+.contact,
+.work {
+  text-align: left;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.home-image {
+  padding-left: 25vw;
+  img {
+    height: 800px;
+    width: 100%;
+  }
+}
+.mb-standard {
+  margin-bottom: 27rem;
+}
+.mb-custom {
+  margin-bottom: 23rem;
+}
+.mb-custom-small {
+  margin-bottom: 10rem;
+}
+.go-top {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  color: #263238;
+  font-size: 20px;
+  padding: 20px 10px;
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: 1px 1px 1px #263238;
 }

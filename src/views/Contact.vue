@@ -1,14 +1,23 @@
 <template>
-  <div>
+  <div class="contact">
     <VueScrollProgress></VueScrollProgress>
-    <h1>Contact</h1>
+    <div class="fifth home-title">
+      <b-container-fluid>
+        <b-row>
+          <Contact />
+        </b-row>
+      </b-container-fluid>
+    </div>
   </div>
 </template>
 
 <script>
+import Contact from "@/components/Contact.vue";
+
 export default {
-  name: "Contact",
-  components: {},
+  components: {
+    Contact
+  },
   methods: {}
 };
 </script>

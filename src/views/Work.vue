@@ -27,11 +27,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.work {
-  text-align: left;
-  background-color: #252733;
-  color: #fff;
-}
 .work-title {
   padding: 20% 33% 1% 10%;
 }

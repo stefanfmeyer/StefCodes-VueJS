@@ -13,9 +13,6 @@
               <router-link to="/">Home</router-link>
             </li>
             <li>
-              <router-link to="/about/">About</router-link>
-            </li>
-            <li>
               <router-link to="/work/">Work</router-link>
             </li>
             <li>
@@ -67,14 +64,14 @@ export default {
         display: inline-block;
         padding: 10px 25px;
         a {
-          color: #5dbcd2;
+          color: #009688;
           text-decoration: none;
           font-size: 2rem;
           transition: 0.5s;
           font-weight: 500;
         }
         :hover {
-          color: #5dbcd2;
+          color: #009688;
         }
       }
     }
