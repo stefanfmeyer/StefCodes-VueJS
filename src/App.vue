@@ -10,7 +10,6 @@
 </template>
 <script>
 // @ is an alias to /src
-
 import Menu from "@/components/Menu.vue";
 export default {
   name: "App",
@@ -38,6 +37,6 @@ html {
 .page-enter,
 .page-leave-to {
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateY(-100%);
 }
 </style>

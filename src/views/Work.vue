@@ -5,7 +5,7 @@
       <b-container-fluid align-v="center">
         <b-row>
           <b-col class="work-title mb-custom" lg="12" md="12" sm="12">
-            <WorkItem />
+            <h1>Some of my latest work</h1>
             <div class="blue-banner-small"></div>
           </b-col>
           <b-col class="work-image mb-standard" lg="12" md="12" sm="12"></b-col>
@@ -16,12 +16,9 @@
 </template>
 
 <script>
-import WorkItem from "@/components/WorkItem.vue";
 export default {
   name: "Work",
-  components: {
-    WorkItem
-  },
+  components: {},
   methods: {}
 };
 </script>
