@@ -12,18 +12,27 @@
         </b-row>
       </b-container-fluid>
     </div>
+    <div class="work-card-outer">
+      <WorkCard />
+    </div>
   </div>
 </template>
 
 <script>
+import WorkCard from "@/components/WorkCard.vue";
 export default {
   name: "Work",
-  components: {},
+  components: {
+    WorkCard
+  },
   methods: {}
 };
 </script>
 
 <style lang="scss" scoped>
+body {
+  background: #263238;
+}
 .work-title {
   padding: 20% 33% 1% 10%;
 }
@@ -46,5 +55,7 @@ export default {
 .custom {
   padding-left: 10vw;
   padding-right: 10vw;
+}
+.work-card-outer {
 }
 </style>

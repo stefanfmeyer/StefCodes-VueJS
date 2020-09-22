@@ -28,7 +28,7 @@
           <a href="https://github.com/stefanfmeyer">GitHub</a>
         </li>
         <li>
-          <a href="https://github.com/stefanfmeyer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/stefcodes/">LinkedIn</a>
         </li>
       </ul>
     </b-col>
